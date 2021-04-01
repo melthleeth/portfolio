@@ -1,2 +1,5 @@
-# portfolio
-portfolio website
+# Portfolio
+
+Meredith's portfolio website
+
+hosted by Github
