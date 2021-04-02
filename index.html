@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,31 @@
     <meta name="description" content="Meredith's Portfolio Website">
     <meta name="author" content="Meredith Lee">
     <title>Meredith Lee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li>HOME</li>
-            <li>ABOUT ME</li>
-            <li>TECH SKILLS</li>
-            <li>PROJECTS</li>
-            <li>EXPERIENCE</li>
-            <li>CONTACT</li>
-        </ul>
-    </nav>
-    <div>
-        
+
+<body class="G-market-sans font-color-black-400">
+    <div class="flex w-4/5 h-full mx-auto">
+        <nav class="w-2/5 justify-end items-center bg-purple-100 mr-10 my-20 border-line-right">
+            <ul class="list-none text-lg tracking-wider leading-loose text-right mr-4">
+                <li>HOME</li>
+                <li>ABOUT ME</li>
+                <li>TECH SKILLS</li>
+                <li>PROJECTS</li>
+                <li>EXPERIENCE</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+        <div class="w-3/5 bg-red-100 w-full">
+            <section id="about">
+                <article class="flex flex-col">
+                    <span>안녕하세요,</span>
+                    <span>프론트엔드 개발자 이혜진 입니다.</span>
+                </article>
+            </section>
+        </div>
     </div>
 </body>
+
 </html>
