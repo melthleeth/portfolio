@@ -14,26 +14,54 @@
 </head>
 
 <body class="G-market-sans font-color-black-400">
-    <div class="flex w-4/5 h-full mx-auto">
-        <nav class="w-2/5 justify-end items-center bg-purple-100 mr-10 my-20 border-line-right">
-            <ul class="list-none text-lg tracking-wider leading-loose text-right mr-4">
-                <li>HOME</li>
-                <li>ABOUT ME</li>
-                <li>TECH SKILLS</li>
-                <li>PROJECTS</li>
-                <li>EXPERIENCE</li>
-                <li>CONTACT</li>
+    <div class="flex w-4/5 mx-auto">
+        <nav class="flex flex-col w-1/5 justify-end items-center bg-purple-100 mr-10 h-screen fixed">
+            <ul class="list-none text-lg tracking-wider leading-loose border-line-right text-right pr-4 my-auto">
+                <a><a href="#home">HOME</a></li>
+                <li><a href="#about-me">ABOUT ME</a></li>
+                <li><a href="#tech-skills">TECH SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
-        <div class="w-3/5 bg-red-100 w-full">
-            <section id="about">
+        <div class="flex flex-col main">
+            <section id="home" class="section-contents bg-red-100 items-center">
                 <article class="flex flex-col">
                     <span>안녕하세요,</span>
                     <span>프론트엔드 개발자 이혜진 입니다.</span>
                 </article>
             </section>
+            <section id="about-me" class="section-contents bg-yellow-100">
+                <article class="flex flex-col">
+                    <span>ABOUT ME</span>
+                </article>
+            </section>
+            <section id="tech-skills" class="section-contents bg-green-100">
+                <article class="flex flex-col">
+                    <span>tech-skills</span>
+                </article>
+            </section>
+            <section id="projects" class="section-contents bg-blue-100">
+                <article class="flex flex-col">
+                    <span>projects</span>
+                </article>
+            </section>
+            <section id="experience" class="section-contents bg-indigo-100">
+                <article class="flex flex-col">
+                    <span>experience</span>
+                </article>
+            </section>
+            <section id="contact" class="section-contents bg-pink-100">
+                <article class="flex flex-col">
+                    <span>contact</span>
+                </article>
+            </section>
         </div>
     </div>
+    <footer class="flex justify-center">
+        <span class="my-10">ⓒ2021 Meredith Lee all right reserved.</span>
+    </footer>
 </body>
 
 </html>
