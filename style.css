@@ -94,9 +94,13 @@ html {
   width: 100%;
 }
 
+.list-item {
+  color: #2b2a29;
+  background-color: transparent;
+}
 
-#list-menu a:hover,
-.list-menu-active {
+.list-item:hover,
+.list-item-active {
   color: white;
   background-color: purple;
 }
