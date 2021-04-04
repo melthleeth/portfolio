@@ -93,3 +93,10 @@ html {
   margin-left: 22rem;
   width: 100%;
 }
+
+
+#list-menu a:hover,
+.list-menu-active {
+  color: white;
+  background-color: purple;
+}
