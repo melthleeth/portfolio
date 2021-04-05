@@ -60,7 +60,7 @@ html {
 }
 
 .border-line-right {
-  border-right: 3.2px solid #dad3cb;
+  border-right: 3.2px solid #aaa9a9;
 }
 
 .border-line-bottom {
@@ -83,6 +83,8 @@ html {
 
 .section-contents {
   height: 100vh;
+  padding-top: 1rem; 
+  padding-bottom: 1rem; 
 }
 
 .section-contents article {
@@ -90,17 +92,21 @@ html {
 }
 
 .main {
-  margin-left: 22rem;
+  margin-left: 18rem;
   width: 100%;
 }
 
 .list-item {
-  color: #2b2a29;
+  color: #aaa9a9;
   background-color: transparent;
+  transition: .3s ease-out;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .list-item:hover,
 .list-item-active {
-  color: white;
-  background-color: purple;
+  color: #2b2a29;
+  font-weight: 600;
+  /* background-color: purple; */
 }
