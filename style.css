@@ -4,6 +4,8 @@ html {
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,900&display=swap");
 
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
 @font-face {
     font-family: 'GmarketSansLight';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
@@ -29,6 +31,10 @@ html {
 .work-sans {
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.2em;
+}
+
+.spoqa-han-sans {
+  font-family: 'Spoqa Han Sans Neo', sans-serif;
 }
 
 .G-market-sans-L {
