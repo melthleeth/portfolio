@@ -7,34 +7,35 @@ html {
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
 @font-face {
-    font-family: 'GmarketSansLight';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-    format("woff");
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-    font-family: 'GmarketSansBold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .work-sans {
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.2em;
+  font-weight: 500;
 }
 
 .spoqa-han-sans {
   font-family: 'Spoqa Han Sans Neo', sans-serif;
+  font-weight: 500;
 }
 
 .G-market-sans-L {
@@ -78,7 +79,8 @@ html {
 }
 
 .font-outline {
-  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: transparent;
+  /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #2b2a29;
 }
@@ -87,15 +89,33 @@ html {
   border-radius: 0 0 30px 0;
 }
 
-.section-contents {
-  height: 100vh;
-  padding-top: 1rem; 
-  padding-bottom: 1rem; 
+.section-title {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  font-weight: 800;
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
 }
 
-.section-contents article {
-  margin: 2rem 1.25rem;
+.section-subtitle {
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
+
+.section-contents {
+  min-height: 100vh;
+  padding: 1rem 1.25rem;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-contents article {}
 
 .main {
   margin-left: 18rem;
