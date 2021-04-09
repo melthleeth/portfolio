@@ -66,6 +66,10 @@ html {
   color: #dad3cb;
 }
 
+.font-color-primary {
+  color: #3A9CFF;
+}
+
 .border-line-right {
   border-right: 3.2px solid #aaa9a9;
 }
@@ -97,20 +101,22 @@ html {
   font-style: italic;
   margin-top: 1rem;
   margin-bottom: 0.75rem;
+  letter-spacing: 0.025em;
 }
 
 .section-subtitle {
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.2em;
   font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom:1rem;
 }
 
 .section-contents {
   min-height: 100vh;
   padding: 1rem 1.25rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
 }
