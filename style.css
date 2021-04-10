@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  outline: none;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,900&display=swap");
@@ -67,7 +68,11 @@ html {
 }
 
 .font-color-primary {
-  color: #3A9CFF;
+  color: #7BED9B;
+}
+
+.bg-color-primary {
+  background-color: #7BED9B;
 }
 
 .border-line-right {
@@ -110,7 +115,45 @@ html {
   font-weight: 500;
   font-size: 1.875rem;
   line-height: 2.25rem;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
+}
+
+.heading-1 {
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  margin-top: 1rem;
+}
+
+.heading-2 {
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+
+.body-1 {
+  letter-spacing: 0.1em;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 1rem;
+}
+
+.spacing-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.project-content-title {
+  font-weight: 900;
+  width: 6rem;
+  margin-right: 1rem;
+  text-align: right;
+  letter-spacing: 0.1em;
 }
 
 .section-contents {
@@ -139,6 +182,15 @@ html {
 .list-item:hover,
 .list-item-active {
   color: #2b2a29;
-  font-weight: 600;
+  font-weight: 700;
   /* background-color: purple; */
+}
+
+.tag {
+  padding: 0.4rem 0.8rem;
+  background-color: #E7E7E7;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
 }
