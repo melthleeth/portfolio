@@ -96,6 +96,11 @@ html {
   background-color: #7BED9B;
 }
 
+.border-line-left {
+  border-left: 3px solid #2b2a29;
+  padding-left: 0.5rem;
+}
+
 .border-line-right {
   border-right: 3.2px solid #aaa9a9;
 }
@@ -172,7 +177,7 @@ html {
 .project-content-title {
   font-weight: 900;
   width: 6rem;
-  margin-right: 1rem;
+  margin-right: 0.75rem;
   text-align: right;
   letter-spacing: 0.1em;
 }
