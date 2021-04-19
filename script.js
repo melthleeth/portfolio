@@ -28,7 +28,7 @@ window.addEventListener('scroll', () => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
     console.log(pageYOffset, sectionTop);
-    if (pageYOffset + 70 >= sectionTop)
+    if (pageYOffset + 150 >= sectionTop)
       current = section.getAttribute("id");
   })
   // console.log("current", current);

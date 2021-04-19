@@ -195,7 +195,9 @@ html {
   flex-direction: column;
 }
 
-.section-contents article {}
+.section-contents article {
+  
+}
 
 .main {
   margin-left: 18rem;
